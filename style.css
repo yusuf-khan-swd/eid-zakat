@@ -46,10 +46,10 @@ main p {
   color: #707070;
 }
 
-/* img {
+img {
   width: 100%;
-  object-fit: cover;
-} */
+  object-fit: contain;
+}
 
 /* hero-section start */
 
@@ -113,7 +113,7 @@ main p {
 /* Helps section start */
 
 .help-heading {
-  width: 700px;
+  width: 750px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -156,11 +156,10 @@ main p {
 
 /* Helps section end */
 
-/* Image Gallery section */
+/* Image Gallery section start*/
 .images-gallery {
   margin-bottom: 130px;
 }
-
 .images {
   display: flex;
   justify-content: center;
@@ -169,6 +168,37 @@ main p {
 .image {
   margin-left: 20px;
 }
+
+/* Image Gallery section end*/
+
+/* Zakat fund start */
+.zakat-section {
+  margin-bottom: 130px;
+}
+
+.new-card {
+  flex-direction: column;
+  width: 350px;
+  height: 481px;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid lightgrey;
+}
+
+.new-card-text {
+  width: 90%;
+}
+
+.new-card-text a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  color: #ef233c;
+  border-bottom: 2px solid #ef233c;
+}
+
+/* Zakat fund end */
 
 /* footer start */
 footer {
