@@ -14,6 +14,7 @@ p {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .link-button {
@@ -32,6 +33,19 @@ p {
   background-color: hsla(353, 86%, 54%, 0.9);
   cursor: pointer;
 }
+
+main h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #121212;
+}
+
+main p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #707070;
+}
+
 /* img {
   width: 100%;
   object-fit: cover;
@@ -90,22 +104,71 @@ p {
   margin: 0 30px;
 }
 
-.article h2 {
-  font-size: 45px;
-  font-weight: bold;
-  color: #121212;
-}
-.article p {
-  font-size: 18px;
-  font-weight: normal;
-  color: #707070;
-}
-
 .article button {
   width: 168px;
 }
 
 /* article section end */
+
+/* Helps section start */
+
+.help-heading {
+  width: 700px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.helps-headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* help section card */
+
+.cards-article {
+  margin-bottom: 130px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 461px;
+  height: 225px;
+  display: flex;
+  padding: 30px;
+  background-color: #fef4f5;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.card-text {
+  width: 80%;
+  margin-left: 20px;
+}
+
+/* Helps section end */
+
+/* Image Gallery section */
+.images-gallery {
+  margin-bottom: 130px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  margin-left: 20px;
+}
 
 /* footer start */
 footer {
