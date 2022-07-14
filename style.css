@@ -25,6 +25,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   border-radius: 7px;
+  font-family: "Inter";
 }
 
 .link-button:hover {
@@ -78,6 +79,31 @@ p {
 /* hero-section end */
 
 /* article section start */
+.articles {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.article {
+  width: 500px;
+  height: 400px;
+  margin: 0 30px;
+}
+
+.article h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #121212;
+}
+.article p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #707070;
+}
+
+.article button {
+  width: 168px;
+}
 
 /* article section end */
 
